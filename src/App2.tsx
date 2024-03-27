@@ -13,6 +13,7 @@ function App2() {
     }
   }
   let evalString = "console.log('This is not good.')";
+   let evalString2 = "console.log('This is not good.')";
   eval(evalString); // Use of eval: Major security issue
   setTimeout(() => {
     console.log("This is a delayed log.");
